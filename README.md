@@ -1,9 +1,7 @@
 # motion_matrix_evaluation
 <p align="center">
-<a href="https://github.com/Namangarg110/Diagnoze/blob/master/static/images/logo3.png">
-	<img src="https://github.com/Namangarg110/Diagnoze/blob/master/static/images/logo3.png" width=20%/>
 </a>
-	<h2 align="center"> Motion Matrix Evaluation (Disease Detection)</h2>
+	<h2 align="center"> Motion Matrix Evaluation </h2>
 	<h4 align="center"> State of the art for estimation of motion matrix involving pose estimation using mediapipe and dynamic time wrapping.
 </h4>
 	<h5 align="center"> Naman Garg </h5>
