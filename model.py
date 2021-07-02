@@ -78,7 +78,12 @@ def norm(arr):
         data.append(np.array(r))
     return data
 
-
+def score_calculate(res,acc):
+    for i in range(33):
+        # score.append(dtw.distance((np.array(res[i]).reshape(-1,1)),np.array(acc[i]).reshape(-1,1)))
+        distance, path = fastdtw(res[i], acc[i])
+        score.append(distance)
+    return score
 
 if __name__ == '__main__':
     result = play()
@@ -89,12 +94,9 @@ if __name__ == '__main__':
     # result= np.array(result).reshape(len(result)*66)
     arr = capture()
     acc = norm(arr)
-    score=[]
+    score=score_calculate(res,acc)
     # print(np.array(res).shape,np.array(acc).shape)
-    for i in range(33):
-        # score.append(dtw.distance((np.array(res[i]).reshape(-1,1)),np.array(acc[i]).reshape(-1,1)))
-        distance, path = fastdtw(res[i], acc[i])
-        score.append(distance)
+    
     range_min = min(score)
     range_max = max(score)
 
@@ -109,10 +111,7 @@ if __name__ == '__main__':
     #     final_score[i]= final_score[i] / range_max
     # for i in range(final_score.shape[0]):
     #     final_score[i]= final_score[i] * 100
-
-
     # print("Probability : ", 100-np.mean(final_score))
-    
     # arr = np.array(arr).reshape(len(arr),66)
     # arr = np.array(arr).reshape(len(arr)*66) #152 33 2 
 
