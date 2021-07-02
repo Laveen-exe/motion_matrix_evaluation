@@ -7,7 +7,7 @@ from dtaidistance import dtw_ndim
 from dtaidistance import dtw
 
 def play():
-    cap = cv2.VideoCapture('./video/3.mp4')
+    cap = cv2.VideoCapture('./video/5.mp4')
     ############## change color in pose for video recorded in RGB ##################3
     pTime=0
     detector = p.poseDetect()
