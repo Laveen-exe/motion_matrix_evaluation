@@ -109,7 +109,6 @@ def final_score_cal(res,acc):
     range_min = min(score)
     range_max = max(score)
     range_ = range_max - range_min
-    print("Range: ",range_)
     mean =np.mean(score)
     return mean
 
@@ -120,5 +119,5 @@ if __name__ == '__main__':
     arr = capture()
     acc = norm(arr)
     score=final_score_cal(res,acc)
-    print(score)
+    print("Final Score is : ",score)
    
