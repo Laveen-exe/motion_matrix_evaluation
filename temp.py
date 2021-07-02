@@ -8,8 +8,7 @@ from dtaidistance import dtw
 
 def play():
     cap = cv2.VideoCapture('./video/3.mp4')
-    ############## change color in pose for video 2##################3
-
+    ############## change color in pose for video recorded in RGB ##################3
     pTime=0
     detector = p.poseDetect()
     landmarks=[]
@@ -17,10 +16,8 @@ def play():
     m=[]
     while True:
         ret,frame= cap.read()
-        
         # print(cap.get(3)) # (640, 352, 3)
         # print(cap.get(4)) # (640, 352, 3)
-
         a= a+1
         success,img =cap.read()
         if success==True:
