@@ -31,8 +31,16 @@ Bodytracking to compare two 5-second dance videos and generate a score.
 ## Working
 This model is used to score motion and action using Dynamic Time Wraping and posture dectection. It can be used in various applications like dance training, gym tutor. 
 
-
-
+## Running Instruction
+open terminal and type the following 
+```
+$ git clone https://github.com/Namangarg110/motion_matrix_evaluation
+$ cd motion_matrix_evaluation
+$ python3 -m venv motion-env
+$ source motion-env/bin/activate
+$ pip3 install -r requirements.txt
+$ python3 main.py
+```
 
 ## Made By 
 
@@ -61,5 +69,5 @@ Naman Garg
   </table>
 
 <p align="center">
-	Made with :heart: by Team Naman</a>
+	Made with :heart: by Naman</a>
 </p>
