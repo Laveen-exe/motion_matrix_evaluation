@@ -1,0 +1,5 @@
+numpy==1.17.4
+mediapipe==0.8.6
+fastdtw==0.3.4
+dtaidistance==2.2.5
+opencv_contrib_python==4.5.2.54
