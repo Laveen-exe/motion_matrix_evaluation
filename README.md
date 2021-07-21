@@ -72,14 +72,14 @@ Naman Garg
 
 <td>
 
-Naman Garg
+Laveen Bagai
 
 <p align="center">
 <img src = "https://avatars.githubusercontent.com/u/40496687?s=400&u=aeba7754d8bba23a2ab9fb2d794cc316b2b6a84b&v=4"  height="120" alt="Naman Garg">
 </p>
 <p align="center">
-<a href = "https://github.com/Namangarg110"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/naman-garg-3790b917a/">	
+<a href = "https://github.com/Laveen-exe"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/laveen-bagai-385484202/">	
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
